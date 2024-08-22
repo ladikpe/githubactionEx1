@@ -1,0 +1,26 @@
+Name: hello-world
+
+On:
+	Push:
+		Branch:
+			- Main
+	Pull:
+		Branch:
+			-Main
+
+Jobs:
+	Name: Hello Wold
+		runs-on: ubuntu-latest
+		Steps:
+			uses: Action/checkout@v1
+			run: echo "Hello World"
+			Shell: Bash
+	Name: GoodBye world
+		runis-on:ubuntu-latest
+		Steps:
+			Use
+
+	
+
+	
+
